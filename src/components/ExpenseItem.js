@@ -34,7 +34,7 @@ const ExpenseItem = (props) => {
         };
 
         dispatch({
-            type: 'DECREASE_EXPENSE',
+            type: 'RED_EXPENSE',
             payload: expense
         });
 
